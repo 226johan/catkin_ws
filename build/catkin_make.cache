@@ -1,0 +1,2 @@
+hello_vscode:learning_message:learning_param_server:learning_service
+-DCATKIN_DEVEL_PREFIX=/home/penghongming/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/penghongming/catkin_ws/install -G Unix Makefiles
