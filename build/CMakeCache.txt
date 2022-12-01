@@ -471,6 +471,12 @@ hello_vscode_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/hello_vscode
 hello_vscode_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/hello_vscode
 
 //Value Computed by CMake
+learning_apis_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_apis
+
+//Value Computed by CMake
+learning_apis_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_apis
+
+//Value Computed by CMake
 learning_communication_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_communication
 
 //Value Computed by CMake
@@ -683,7 +689,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

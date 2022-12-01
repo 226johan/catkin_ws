@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/penghongming/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/penghongming/catkin_ws/build/hello_vscode/cmake_install.cmake")
+  include("/home/penghongming/catkin_ws/build/learning_apis/cmake_install.cmake")
   include("/home/penghongming/catkin_ws/build/learning_message/cmake_install.cmake")
   include("/home/penghongming/catkin_ws/build/learning_param_server/cmake_install.cmake")
   include("/home/penghongming/catkin_ws/build/learning_service/cmake_install.cmake")

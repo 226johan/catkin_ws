@@ -493,6 +493,58 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named demo_apis_time
+
+# Build rule for target.
+demo_apis_time: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_apis_time
+.PHONY : demo_apis_time
+
+# fast build rule for target.
+demo_apis_time/fast:
+	$(MAKE) -f learning_apis/CMakeFiles/demo_apis_time.dir/build.make learning_apis/CMakeFiles/demo_apis_time.dir/build
+.PHONY : demo_apis_time/fast
+
+#=============================================================================
+# Target rules for targets named demo_apis_log
+
+# Build rule for target.
+demo_apis_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_apis_log
+.PHONY : demo_apis_log
+
+# fast build rule for target.
+demo_apis_log/fast:
+	$(MAKE) -f learning_apis/CMakeFiles/demo_apis_log.dir/build.make learning_apis/CMakeFiles/demo_apis_log.dir/build
+.PHONY : demo_apis_log/fast
+
+#=============================================================================
+# Target rules for targets named demo_apis_sub
+
+# Build rule for target.
+demo_apis_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_apis_sub
+.PHONY : demo_apis_sub
+
+# fast build rule for target.
+demo_apis_sub/fast:
+	$(MAKE) -f learning_apis/CMakeFiles/demo_apis_sub.dir/build.make learning_apis/CMakeFiles/demo_apis_sub.dir/build
+.PHONY : demo_apis_sub/fast
+
+#=============================================================================
+# Target rules for targets named demo_apis_pub
+
+# Build rule for target.
+demo_apis_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_apis_pub
+.PHONY : demo_apis_pub
+
+# fast build rule for target.
+demo_apis_pub/fast:
+	$(MAKE) -f learning_apis/CMakeFiles/demo_apis_pub.dir/build.make learning_apis/CMakeFiles/demo_apis_pub.dir/build
+.PHONY : demo_apis_pub/fast
+
+#=============================================================================
 # Target rules for targets named demo_publisher_person
 
 # Build rule for target.
@@ -946,6 +998,10 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... demo_apis_time"
+	@echo "... demo_apis_log"
+	@echo "... demo_apis_sub"
+	@echo "... demo_apis_pub"
 	@echo "... demo_publisher_person"
 	@echo "... demo_subscriber"
 	@echo "... learning_message_generate_messages"
