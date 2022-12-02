@@ -6,5 +6,6 @@
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
     "gitee.access_token": "317b8d59ceb286e459066e36edd3484a",
-    "gitee.gist": "b1o9anjgdqiv6fl5eysmc60"
+    "gitee.gist": "b1o9anjgdqiv6fl5eysmc60",
+    "C_Cpp.errorSquiggles": "Enabled"
 }

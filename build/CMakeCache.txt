@@ -464,6 +464,9 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Dependencies for the target
+head_src_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
+
 //Value Computed by CMake
 hello_vscode_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/hello_vscode
 
@@ -483,6 +486,18 @@ learning_communication_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/lear
 learning_communication_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_communication
 
 //Value Computed by CMake
+learning_head_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_head
+
+//Value Computed by CMake
+learning_head_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_head
+
+//Value Computed by CMake
+learning_head_src_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_head_src
+
+//Value Computed by CMake
+learning_head_src_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_head_src
+
+//Value Computed by CMake
 learning_message_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_message
 
 //Value Computed by CMake
@@ -493,6 +508,12 @@ learning_param_server_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learn
 
 //Value Computed by CMake
 learning_param_server_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_param_server
+
+//Value Computed by CMake
+learning_pkg_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_pkg
+
+//Value Computed by CMake
+learning_pkg_SOURCE_DIR:STATIC=/home/penghongming/catkin_ws/src/learning_pkg
 
 //Value Computed by CMake
 learning_service_BINARY_DIR:STATIC=/home/penghongming/catkin_ws/build/learning_service
@@ -689,7 +710,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

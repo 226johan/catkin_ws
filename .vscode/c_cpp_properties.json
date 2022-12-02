@@ -11,7 +11,9 @@
                 "/opt/ros/noetic/include",
                 "~/catkin_ws/devel/include/**",
                 "${workspaceFolder}/devel/include/learning_message",
-                "${workspaceFolder}/devel/include"
+                "${workspaceFolder}/devel/include",
+                "/home/penghongming/catkin_ws/src/learning_head/include/**",
+                "/home/penghongming/catkin_ws/src/learning_head_src/include/**"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

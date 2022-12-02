@@ -1,0 +1,8 @@
+prefix=/home/penghongming/catkin_ws/install
+
+Name: learning_head_src
+Description: Description of learning_head_src
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
